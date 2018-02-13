@@ -1,0 +1,4 @@
+services:
+#    vader_lab_acl.example:
+#        class: VaderLab\AclBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

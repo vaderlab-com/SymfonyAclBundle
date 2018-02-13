@@ -1,0 +1,30 @@
+{
+  "name": "vaderlab/acl-bundle",
+  "description" : "Bundle provide ACL functional",
+  "version": "0.0.1",
+  "type" : "symfony-bundle",
+  "homepage": "https://github.com/vaderlab-com/SymfonyAclBundle",
+  "keywords" : ["vaderlab", "symfony", "bundle", "acl", "access", "control", "list"],
+  "authors" : [{
+    "name" : "Stanislau Komar",
+    "email" : "ceo@vaderlab.com"
+  }],
+  "require" : {
+    "php": ">=7.2",
+    "symfony/symfony": ">=3.4"
+  },
+  "dependencies": {
+  },
+  "autoload" : {
+    "psr-4" : { "VaderLab\\AclBundle\\" : "" }
+  },
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "master"
+    }
+  },
+  "require-dev": {
+    "php-xdebug": "^2.6",
+    "phpunit/phpunit": "^7"
+  }
+}
